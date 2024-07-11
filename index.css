@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+    padding: 1rem;
+    
+}
+
+header nav {
+    margin-right: 3rem;
+}
+
+header nav ul {
+    display: flex;
+    column-gap: 2rem;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 40px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero{
+    background-color: white;
+    width: 100%;
+    height: 150vmax;
+    background-size: cover;
+    background-repeat: calc();
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: left; 
+    margin-top: 0px;     
+    margin-right: 7rem;
+}
+
+.gag{
+    width: 80px;
+    /*margin-left: 1000px;*/
+    /*margin: 32px auto;*/
+    display: flex;
+    margin-top: 170px;
+    justify-content: space-between;
+    position:relative;
+}
+.gag img{
+    margin-left: 60px;
+    margin-right: 250px;
+    margin-bottom: 170px;
+    width: 700px;
+    
+}
+
+.gag .text{
+position: absolute;
+color: black;
+left: 50%;
+top: 50%;
+font-size: 60px;
+transform:translate(50%, -50%) ;
+background-color: white;
+
+}
+
+.flask{
+    width: 100px;
+    
+    display: flex;
+    
+    justify-content: space-between; 
+}
+.flask img{
+    width: 700px;
+    margin-left: 60px;
+    margin-right: 250px;
+    margin-bottom: 170px;
+}
+
+
+.plastic{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.plastic img{
+    margin-left: 60px;
+    margin-right: 250px;
+    width: 700px;
+    margin-bottom: 60px;
+}
+
+ .bottom {
+    padding: 400px;
+    background-color: green;
+ }
