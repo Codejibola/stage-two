@@ -34,76 +34,458 @@ header nav ul li a {
     text-decoration: none;
 }
 
-.hero{
+.one{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 40px;
+    margin-top: 90px;
+    width: 200px;
+    margin-left: 400px;
+    top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.two{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 40px;
+    margin-top: 90px;
+    width: 200px;
+    margin-left: 900px;
+    top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.three{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 40px;
+    margin-top: 90px;
+    width: 200px;
+    margin-left: 1300px;
+    top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.four{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 40px;
+    margin-top: 90px;
+    width: 200px;
+    margin-left: 1700px;
+    top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.five{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 40px;
+    margin-top: 90px;
+    width: 200px;
+    margin-left: 2100px;
+    top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.pictureone{
+    position: absolute;
+    height: 470px;
+    width: 350px;
     background-color: white;
-    width: 100%;
-    height: 150vmax;
-    background-size: cover;
-    background-repeat: calc();
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    text-align: left; 
-    margin-top: 0px;     
-    margin-right: 7rem;
-}
-
-.gag{
-    width: 80px;
-    /*margin-left: 1000px;*/
-    /*margin: 32px auto;*/
-    display: flex;
-    margin-top: 170px;
-    justify-content: space-between;
-    position:relative;
-}
-.gag img{
-    margin-left: 60px;
-    margin-right: 250px;
-    margin-bottom: 170px;
-    width: 700px;
-    
-}
-
-.gag .text{
-position: absolute;
-color: black;
-left: 50%;
-top: 50%;
-font-size: 60px;
-transform:translate(50%, -50%) ;
-background-color: white;
+    margin-top: 260px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 260px;
 
 }
 
-.flask{
-    width: 100px;
-    
-    display: flex;
-    
-    justify-content: space-between; 
-}
-.flask img{
-    width: 700px;
-    margin-left: 60px;
-    margin-right: 250px;
-    margin-bottom: 170px;
+.i{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
 }
 
-
-.plastic{
-    width: 80px;
-    display: flex;
-    justify-content: space-between;
+.a{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
 }
-.plastic img{
-    margin-left: 60px;
-    margin-right: 250px;
-    width: 700px;
-    margin-bottom: 60px;
+.b{
+    font-size: 18px;
+    margin-left: 15px;
 }
 
- .bottom {
-    padding: 400px;
+.c{
     background-color: green;
- }
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.picturetwo{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 260px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 1200px;
+
+}
+
+.ii{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.d{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.e{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.f{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.picturethree{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 260px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 2000px;
+
+}
+
+.iii{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.g{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.h{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.j{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.picturefour{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 1000px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 260px;
+
+}
+
+.iv{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.k{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.l{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.m{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.picturefive{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 1000px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 1200px;
+
+}
+
+.v{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.n{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.o{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.p{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.picturesix{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 1000px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 2000px;
+
+}
+
+.vi{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.q{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.r{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.s{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.pictureseven{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 1740px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 260px;
+    margin-bottom: 70px;
+
+}
+
+.vii{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.t{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.u{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.v1{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.pictureeight{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 1740px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 1200px;
+    margin-bottom: 70px;
+    
+
+}
+
+.viii{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.w{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.x{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.y{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 190px;
+}
+
+.picturenine{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    background-color: white;
+    margin-top: 1740px;
+    border-radius: 10px ;
+    border: 4px solid black;
+    margin-left: 2000px;
+    margin-bottom: 70px;
+
+}
+
+.ix{
+    position: absolute;
+    height:300px;
+    width:310px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.z{
+    margin-top: 320px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.A{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.B{
+    background-color: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.bottom{
+    width: 100%;
+    height: 300px;
+    margin-top: 2700px;
+    background-color: green;
+    justify-content: center;
+    
+}
+
+.firstly{
+    font-size: 50px;
+    color: black;
+     margin-top: 100px;
+     margin-left: 600px;
+
+}
+
+.lastly{
+    font-size: 50px;
+    color: black;
+    margin-left: 800px;
+    
+}
