@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../To do list app"
+		},
+		{
+			"path": "../csc project 104(2)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "stage two tasks frontend"
+	}
+}

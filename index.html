@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adorne</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer ></script>
+    
 </head>
 <body>
     <header>
@@ -27,7 +27,7 @@
        <img src="wristw.jpg" alt="" class="i">
      <p class="a">Onmax wristwatch</p><br>
      <p class="b">NGN 35,000</p><br>
-     <button class="c">Add item to cart</button>
+     <button class="c" id="btn">Add item to cart</button>
 
     </div >
     
@@ -107,3 +107,16 @@
 
 
     </div>
+
+
+
+
+
+    <script>
+       const bill =document.getElementsByName("c");
+       bill.onClick=function (){
+        alert("this item has added to cart")
+       }
+    
+        
+    </script>

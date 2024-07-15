@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+}
+.aboutus{
+    background-color: black;
+    background-size: cover;
+    width: 2400px;
+    height: 25vmax;
+    padding: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.aboutus h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    
+    
+}
+    .aboutus h2{
+        color: white;
+        font-size: 40px;
+    }
+    .aboutus h3{
+        color: white;
+        font-size: 40px;
+    }
+    .aboutus h4{
+        color: white;
+        font-size: 40px;
+        
+    }
+    .aboutus h5{
+        color: white;
+        font-size: 40px;
+    }
+
+    .aboutus h6{
+        color: white;
+        font-size: 40px;
+        
+    }
+    .aboutus h7{
+        color: white;
+        font-size: 40px;
+    }
